@@ -1,0 +1,18 @@
+Hypothesis Tests Results
+1. T-test: MonthlyCharges vs Churn
+- Test statistic: (calculated by scipy)
+- p-value: 0.01630315798522395
+- Interpretation: Significant difference. Customers who churn pay higher monthly charges.
+2. Chi-square Test: Contract vs Churn
+- Chi-square statistic: (calculated by scipy)
+- p-value: 9.58735427092388e-07
+- Interpretation: Highly significant. Contract type strongly influences churn.
+3. Chi-square Test: PaymentMethod vs Churn
+- Chi-square statistic: (calculated by scipy)
+- p-value: 0.1444587720334851
+- Interpretation: Not significant. Payment method does not independently explain churn.
+
+Notes
+- All tests were conducted at a 95% confidence level (α = 0.05).
+- Results show that MonthlyCharges and Contract type are statistically significant predictors of churn, while PaymentMethod is not.
+- These outputs align with the logistic regression findings, reinforcing the importance of tenure, charges, and contract type in churn prediction.
