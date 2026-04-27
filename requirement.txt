@@ -1,0 +1,8 @@
+pandas2.2.2
+numpy1.26.4
+scipy1.13.0
+statsmodels0.14.2
+matplotlib3.8.4
+seaborn0.13.2
+scikit-learn1.4.2
+jupyter1.0.0
